@@ -1,0 +1,55 @@
+body {
+	min-height: 100vh;
+	background-image: url('/public/img/bg-login.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	overflow-y: hidden;
+}
+
+.box-login {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	height: 100%;
+	padding: 15px;
+	border-radius: 3px;
+	transform: translate(-50%, 60%);
+	background-color: #000000ad;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.box-login .title-login {
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box-login .form .form-label {
+	color: #fff;
+}
+
+input.form-control:focus {
+	outline: none !important;
+	box-shadow: 0 0 0 5px #010101 !important;
+}
+
+.box-login .form .form-control {
+	background-color: #fbc200;
+}
+
+.box-login .form .btn-login {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	color: #010101;
+	font-weight: bold;
+	background-color: #fbc200;
+	font-family: monospace;
+}
+
+.box-login .form .btn-login:hover {
+	background-color: #ffca1c;
+}
