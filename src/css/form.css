@@ -1,0 +1,141 @@
+.box-form {
+	max-width: 100%;
+	min-height: 100vh;
+	background-image: url('https://img.freepik.com/fotos-gratis/um-grupo-de-cachorros-fofos-sentados-olhando-para-uma-camera-dentro-de-casa-gerada-por-inteligencia-artificial_188544-113182.jpg?t=st=1711495111~exp=1711498711~hmac=b98c8707c6981ab412aa312dfa985404b9f4c0e4908d1ba7e70700eb97b8c899&w=1060');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.box-form .form-cadastro {
+	max-width: 100%;
+	margin: 40px 0;
+	padding: 20px;
+	color: #fff;
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	border-radius: 5px;
+	background: #000;
+	box-shadow: 0 0 20px 2px #cccccc87;
+	font-family: 'Roboto', sans-serif;
+	/* transform: translateY(3%); */
+}
+
+.box-form .form-cadastro fieldset {
+	padding: 15px;
+	border: 3px solid #fbc200;
+	animation: rainbow 4s linear infinite;
+}
+
+.legend {
+	color: #d2d6d2;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.box-form .form-cadastro input {
+	font-size: 12px !important;
+}
+
+.box-form .form-cadastro .input {
+	position: relative;
+	bottom: 0;
+}
+
+input.input-user:focus {
+	outline: none !important;
+	box-shadow: 0 0 0 0;
+}
+
+.box-form .form-cadastro .input .label-input {
+	position: relative;
+	top: -25px;
+	left: 0;
+	color: #d2d6d2;
+	font-size: 16px;
+	cursor: text;
+	pointer-events: none;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	transition: all 0.3s ease;
+}
+
+.box-form .form-cadastro .input .input-user:focus,
+.box-form .form-cadastro .input .input-user:valid {
+	border-bottom: 2px solid #fbc200 !important;
+}
+
+.box-form .form-cadastro .input .input-user:focus ~ .label-input,
+.box-form .form-cadastro .input .input-user:valid ~ .label-input {
+	position: relative;
+	top: -20px;
+	transform: translateY(-25px);
+}
+
+.box-form .form-cadastro .form-control.input-user {
+	padding: 0;
+	color: #d2d6d2;
+	border: none;
+	border-radius: 0;
+	border-bottom: 1px solid #fff !important;
+	letter-spacing: 2px;
+	background: none !important;
+}
+
+.sexo {
+	color: #d2d6d2;
+	font-size: 16px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.data {
+	color: #d2d6d2;
+	font-size: 16px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input[type='date' i] {
+	padding: 5px;
+	color: #d2d6d2;
+	border: 1px solid #fff;
+	background: transparent !important;
+}
+
+.btn-enviar {
+	width: 100%;
+	margin: 0 auto !important;
+	color:#202020 !important;
+	border-radius: 3px !important;
+	font-weight: bold !important;
+	background: #fbc200 !important;
+	text-transform: uppercase;
+	transition: all .3s ease-in-out;
+	cursor: pointer;
+}
+
+.btn-enviar:hover {
+	color: #fff !important;
+	border: 2px solid #fbc200 !important;
+	background: transparent !important;
+	transition: all .3s ease-in-out;
+}
+
+/* EFEITO BORDER */
+@keyframes rainbow {
+	0% {
+		border-color: #fbc200;
+	}
+
+	25% {
+		border-color: #fff;
+	}
+
+	50% {
+		border-color: #fbc200;
+	}
+
+	75% {
+		border-color: #fff;
+	}
+
+	100% {
+		border-color: #fbc200;
+	}
+}
